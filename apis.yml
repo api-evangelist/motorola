@@ -1,8 +1,25 @@
 aid: motorola
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motorola.png
 name: Motorola
-description: 'Motorola is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Motorola (motorola.com) is the consumer mobile-device brand operated by Motorola Mobility,
+  a Lenovo company, producing Android smartphones (moto g, moto edge, and razr foldable lines), tablets,
+  and accessories sold worldwide. It was originally added to the API Evangelist network as a venture-portfolio
+  stub. On review, the consumer brand publishes no open public REST/HTTP API developer portal: the historical
+  developer.motorola.com Moto Mods hardware SDK (for the modular Moto Z) is no longer reachable, and no
+  OpenAPI, AsyncAPI, or well-known discovery surface was found. Enterprise and public-safety APIs are
+  offered separately by Motorola Solutions, Inc. (docs.motorolasolutions.com), a distinct company, under
+  a gated partner Application Developer Program.'
 url: https://raw.githubusercontent.com/api-evangelist/motorola/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Consumer Electronics
+- Smartphones
+- Mobile Devices
+- Android
+- Hardware
+- Lenovo
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://motorola.com
+  url: https://www.motorola.com/us/en/homepage
+- type: Support
+  url: https://en-us.support.motorola.com/
+- type: PrivacyPolicy
+  url: https://www.motorola.com/us/en/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.motorola.com/us/en/legal/terms-of-use
+- type: DomainSecurity
+  url: security/motorola-domain-security.yml
+- type: LLMsTxt
+  url: llms/motorola-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

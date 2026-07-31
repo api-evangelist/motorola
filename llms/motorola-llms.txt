@@ -1,0 +1,18 @@
+# Motorola
+
+> Motorola (motorola.com) is the consumer mobile-device brand — Android smartphones (moto g, moto edge, razr), tablets, and accessories — operated by Motorola Mobility, a Lenovo company. This profile is maintained in the API Evangelist network. As of this pass Motorola publishes no open public REST/HTTP API developer portal on the consumer domain; the historical developer.motorola.com (Moto Mods hardware SDK for the Moto Z) is no longer reachable. Enterprise/public-safety APIs are offered separately by Motorola Solutions (docs.motorolasolutions.com), a distinct company, under a gated partner developer program.
+
+## Company
+- [Motorola homepage](https://www.motorola.com/us/en/homepage): Consumer smartphones, tablets, and accessories.
+- [Support](https://en-us.support.motorola.com/): Product support and help center.
+- [Privacy Policy](https://www.motorola.com/us/en/legal/privacy-policy)
+- [Terms of Use](https://www.motorola.com/us/en/legal/terms-of-use)
+
+## Related (separate entity)
+- [Motorola Solutions Documentation](https://docs.motorolasolutions.com/): Public-safety/enterprise product docs (Motorola Solutions, Inc. — a different company from consumer Motorola).
+- [Motorola Solutions Application Developer Program](https://www.motorolasolutions.com/en_us/developers/application-partner-developer-program.html): Gated partner APIs for MOTOTRBO, TETRA, P25, and CommandCentral.
+
+## Notes
+- No public OpenAPI/AsyncAPI specification was found for the consumer Motorola brand.
+- No /.well-known/security.txt, /.well-known/openid-configuration, or /llms.txt published.
+- Domain security probed: HTTPS/TLSv1.3, SPF present, DMARC policy reject, no DNSSEC, no CAA.
